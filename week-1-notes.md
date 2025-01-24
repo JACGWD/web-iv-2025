@@ -5,6 +5,8 @@ Topics covered in week one that are in other documents:
 1. [DNS Hosting & Domain Names Vocabulary](./dns-hosting-vocabulary.md)
 2. [How to install Bitnami MAMP](./installing-bitnami-mamp.md)
 3. [Comprehensive Assessment Components to Submit W25](./comprehensive-assessment-w25-list.md)
+4. [Download MAMP for Mac or PC](https://www.mamp.info/mac/) This software is to be used on your personal machine. You do not have admin rights to install it at school.
+5. Laws of UX: [Cognitive Load](https://lawsofux.com/cognitive-load/)
 
 ## VS Code Extensions List
 
@@ -35,3 +37,11 @@ On Omnivox, I have shared a 2048px X 2048px Photoshop document to help everyone 
 If you have an image that is particularly tall, like the email newsletter, you can match the width but keep a proportional height taller than 2048px. In other words, you can match only one dimension in order to maintain visual consistency between pages when matching two dimensions causes layout problems. 
 
 
+## Whois & Cognitive Load
+
+In class, we saw that we can access information in the Whois database using either a web site or by using the terminal. Both tools provide access to the same information. Only the interface is different.
+
+- Question: Why is the whois web site easier to use?
+- Answer: Because the commandline interface requires you to remember the command and how to use it.
+
+That is a simple example of **cognitive load**. In Interface Design, any design decision that reduces the cognitive load on the user is a good thing. Otherwise, users will make mistakes, get lost, or completely give up trying to accomplish a task.
