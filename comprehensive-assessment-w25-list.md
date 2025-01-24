@@ -1,0 +1,22 @@
+# Comprehensive Assessment Components to Submit W25
+
+- A logo collage
+- Before/After retouched advertising
+- Designed web form
+- Advertising material
+- Infographic
+- Mockup web site design
+- Sketches
+- Responsive email newsletter
+- Book chapter(s)
+- Dust Jacket
+- eBook
+- Branding
+- Catalog
+- Complete stationery set
+- Advertising material 2
+- Print newsletter
+- Magazine cover
+- Photo LookBook
+- Photo retouching
+- Creative Photography

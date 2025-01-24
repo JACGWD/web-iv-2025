@@ -4,6 +4,7 @@ Topics covered in week one that are in other documents:
 
 1. [DNS Hosting & Domain Names Vocabulary](./dns-hosting-vocabulary.md)
 2. [How to install Bitnami MAMP](./installing-bitnami-mamp.md)
+3. [Comprehensive Assessment Components to Submit W25](./comprehensive-assessment-w25-list.md)
 
 ## VS Code Extensions List
 
