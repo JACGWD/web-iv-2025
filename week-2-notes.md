@@ -1,4 +1,17 @@
-## Web Developer Toolbar
+# Week 2 Course Notes
+
+## Manually Installing WordPress on Bitnami/MAMP
+
+[Manually Installing WordPress on Bitnami/MAMP](./week-2/manually-Installing-wordpress.md)
+
+## Installing WordPress using WordPress Studio
+
+[Installing WordPress using WordPress Studio](./week-2/installing-wordpress-studio.md)
+
+
+## Useful Links
+
+### Web Developer Toolbar
 
 The Web Developer extension adds various web developer tools to a browser. The extension is available for Chrome, Edge, Firefox, and Opera, and will run on any platform that these browsers support including Windows, macOS, and Linux.
 
