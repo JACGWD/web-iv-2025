@@ -18,3 +18,9 @@
 4. Paste https://github.com/JACGWD/web-iv-2025.git
 5. Choose a folder location (default is fine)
 6. Click Clone 
+
+### How to stay up to date
+
+1. Open GitHub Desktop
+2. Click the top left area to make sure the Web IV repo is the active one
+3. Click "Fetch Origin"
