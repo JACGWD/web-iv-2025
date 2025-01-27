@@ -1,10 +1,12 @@
 # Week 2 Course Notes
 
 
+<blockquote>
 
 ## Reminder: Winter 2025 Deadlines
 This semester, all projects and assignments are **due by Friday morning at 8am** (unless instructed otherwise).
 
+</blockquote>
 
 ## Manually Installing WordPress on Bitnami/MAMP
 
