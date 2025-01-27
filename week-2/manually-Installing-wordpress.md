@@ -98,11 +98,14 @@ A **collation** is the character set (ex: Latin, Thai, Chinese, etc character su
 1. Select your new database in the left column of PHPMyAdmin.
 2. The database will load into the PHPMyAdmin window, but it will tell you that the **database is empty: it has no tables. This is what you need WordPress to install.**
 
-<div style="border: 1px solid #444; margin: 1rem 0 2rem 0; padding: 2rem;">
-<h3>Security Tip</h3>
+
+<blockquote>
+
+### Security Tip
 
 If doing this on a **real production server**, void obvious database names like "wordpress" or "websiteDB" to make any would-be hacker's life just that much more difficult.
-</div>
+
+</blockquote>
 
 
 
@@ -110,14 +113,17 @@ If doing this on a **real production server**, void obvious database names like 
 
 When using a database-driven web site system, the different pieces of software (namely Apache and MySQL) have to talk to each other. To do this, they need to be allowed to do so by using a valid username and password. (Otherwise it would be very easy to hack.)
 
-<div style="border: 1px solid #444; margin: 1rem 0 2rem 0; padding: 2rem;">
-<h3>Test Material</h3> 
+
+<blockquote>
+
+### Test Material 
 
 By default, Bitnami lets you use the root account but this is a very bad practice in terms of security.
 
 (They do this so that setting up your home computer / development machine is any easy task. They expect you to change the username and password before you go public.)
 
-</div>
+
+</blockquote>
  
 
 We will create a new database username and password for this purpose.
@@ -136,12 +142,15 @@ We will create a new database username and password for this purpose.
 
 ![](./img/3-add-user-account-pw.png)
 
-<div style="border: 1px solid #444; margin: 1rem 0 2rem 0; padding: 2rem;">
-<h3>Security Note</h3> 
+
+<blockquote>
+
+### Security Note 
 
 The strength of the password here is not important because this setup is not public. It will only exist on your computer and will not connect to the outside world. The username and password will change when you upload your site to the public server.
 
-</div>
+
+</blockquote>
 
 Add user account password
 
@@ -218,12 +227,15 @@ Make sure you have this information on hand.
 
 If everything was OK, you should see this screen.
 
-<div style="border: 1px solid #444; margin: 1rem 0 2rem 0; padding: 2rem;">
-<h3>Important</h3> 
+
+<blockquote>
+
+### Important
 
 Create a text file that you will save next to your Bitnami folder called "wordpress.txt". Add the username and password for the WordPress admin account you just created. **Do not** include this file in the htdocs folder.
 
-</div>
+
+</blockquote>
 
 #### Success!
 

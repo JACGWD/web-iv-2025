@@ -16,14 +16,17 @@ On the departmental lab computers, the application should already be installed. 
 
 ## Start the Application
 
-<div style="border: 1px solid #444; margin: 1rem 0 2rem 0; padding: 2rem;">
-<h3>MAMP vs Studio</h3>
+
+<blockquote>
+
+### MAMP vs Studio
 
 The big difference in between Bitnami/MAMP and WordPress Studio is that **Studio** is designed to be frontend for [wordpress.com](https://www.wordpress.com), which is [Automattic](https://automattic.com/)'s **paid hosting service**.
 
 **MAMP** is a software designed to run the **open source software** that Automattic distributes on the **wordpress.org** site.
 
-</div>
+
+</blockquote>
 
 ## Install WordPress
 
@@ -42,12 +45,15 @@ We will install the files into OneDrive to get the following benefits:
 
 During the installation, select **Advanced Settings** and navigate to a folder inside OneDrive to save the site. Ex: onedrive/fourth-semester/web-iv/montreal-real-estate/
 
-<div style="border: 1px solid #444; margin: 1rem 0 2rem 0; padding: 2rem;">
-<h3>Important: Make sure OneDrive is Running</h3>
+
+<blockquote>
+
+### Important: Make sure OneDrive is Running
 
 Both at school and at home, make sure that the OneDrive application is actually running. Sometimes when there is a software update, OneDrive does not automatically start.
 
-</div>
+
+</blockquote>
 
 ![Install into OneDrive](./img/14-MTLRS-studio.png)
 
@@ -81,10 +87,12 @@ After each Wordpress session, at school or at home, please use the [All in One W
 
 ![Download the backup](./img/20-download-backup.png)
 
-<div style="border: 1px solid #444; margin: 1rem 0 2rem 0; padding: 2rem;">
 
-<h3>Important: Save the Backups in OneDrive but not inside the Web Site folder</h3>
+<blockquote>
+
+### Important: Save the Backups in OneDrive but not inside the Web Site folder
 
 Do not save the backups inside the htdocs public folder. Save them, for example, in web-iv/backups so you can access them anywhere but they are not taking up space within the web site.
 
-</div>
+
+</blockquote>
