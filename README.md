@@ -9,3 +9,12 @@
 
  1. Open GitHub Desktop
  2. [Follow these instructions on cloning a repository from GitHub to GitHub Desktop](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop)
+
+### TLDR
+
+1. Open GitHub Desktop
+2. Select Add > Clone repository
+3. Click the URL tab
+4. Paste https://github.com/JACGWD/web-iv-2025.git
+5. Choose a folder location (default is fine)
+6. Click Clone 
