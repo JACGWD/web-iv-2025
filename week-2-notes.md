@@ -1,10 +1,10 @@
 # Week 2 Course Notes
 
-<div style="border: 1px solid #444; margin: 1rem 0 2rem 0; padding: 2rem;">
 
-<h3>Reminder: Winter 2025 Deadlines</h3>
+
+## Reminder: Winter 2025 Deadlines
 This semester, all projects and assignments are **due by Friday morning at 8am** (unless instructed otherwise).
-</div>
+
 
 ## Manually Installing WordPress on Bitnami/MAMP
 
