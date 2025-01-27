@@ -10,7 +10,7 @@ This semester, all projects and assignments are **due by Friday morning at 8am**
 
 <blockquote>
 
-## Reminder: Winter 2025 Deadlines
+## Reminder: Always Sync the Class Repo
 
 ![GitHub Desktop: fetch origin](./week-2/img/21-fetch-origin.png)
 
