@@ -19,7 +19,7 @@
 5. Choose a folder location (default is fine)
 6. Click Clone 
 
-### How to stay up to date
+## How to stay up to date
 
 1. Open GitHub Desktop
 2. Click the top left area to make sure the Web IV repo is the active one
