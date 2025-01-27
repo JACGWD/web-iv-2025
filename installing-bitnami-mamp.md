@@ -1,10 +1,12 @@
 # Install Bitnami MAMP
 
-<div style="border: 1px solid red; padding: 1rem; width: fit-content; margin: 2rem auto;">
+<blockquote>
 
 ## IMPORTANT NOTE
 
-If you are installing on your own computer (macOS or PC), <a href="https://www.mamp.info/en/mac/">please use MAMP instead</a>.</div>
+If you are installing on your own computer (macOS or PC), <a href="https://www.mamp.info/en/mac/">please use MAMP instead</a>.
+
+</blockquote>
 
 ## 1. Download Bitnami 
 
@@ -47,7 +49,7 @@ You can create a new "Local Documents" folder within your home folder and instal
 
 ## 5. Root User Credentials
 
-<div style="border: 1px solid red; padding: 1rem; width: fit-content; margin: 2rem auto;">
+<blockquote>
 
 ## Super Important
 
@@ -58,7 +60,7 @@ Do not forget these credentials!
 3. Save it in the same folder as the Bitnami folder
 4. Suggestion: user: bitnami and password: bitnami
 
-</div>
+</blockquote>
 
 ### What is a root user?
 
@@ -69,9 +71,11 @@ See this article on the root user story: [https://www.howtogeek.com/737563/what-
 
 ## 6. No Cloud Option
 
+We do not need to use the Bitnami cloud services.
+
 ![No Cloud Options Needed](./img/week-1/06-no-cloud.png)
 
-We do not need to use the Bitnami cloud services.
+
 
 
 ## 7. Proceed to the installation
@@ -80,32 +84,55 @@ We do not need to use the Bitnami cloud services.
 
 ## 8. Wait for the installation to complete
 
+(It takes a while...)
+
 ![Please wait...](./img/week-1/08-minutes.png)
 
-(It takes a while...)
+
 
 ## 9. Launch MAMP
 
 ![launch MAMP](./img/week-1/09-launch-mamp.png)
 
-## 10. A Good Sign
+<blockquote>
 
-![Servers are running](./img/week-1/10-servers-running.png)
+### NOTE: Bitnami interface
+
+![Bitnami Manager OS X](./week-2/img/23-bitnami-manager.png)
+
+Bitnami (or MAMP) is automatically started when you install it. As a general rule, you must shut it down at the end of class by clicking "Stop All Servers".
+
+When you come into class, make sure to start the servers using the Bitnami Manager OS X app.
+
+Note that if the student in the previous class did not close down their servers, your servers may not be able to use the default port numbers when you launch them. The easiest solution in this case is to simply restart the computer the start your server software as usual.
+
+![Bitnami Interface](./week-2/img/22-bitnami-interface.png)
+
+</blockquote>
+
+## 10. A Good Sign
 
 If you see these two green dots, it means everything is running the way it should.
 
+![Servers are running](./img/week-1/10-servers-running.png)
+
+
+
 
 ## 11. The Three Buttons
-
-![3 Bitnami buttons](./img/week-1/11-buttons.png)
 
 1. Opens the default web application installed in Bitnami/apache2/htdocs (in our case this will be Wordpress).
 2. Opens the MySQL/MariaDB database management web application PHPMyAdmin.
 3. Opens the Bitnami folder on your computer.
 
-## 12. Always Shutdown at the End of Class
+![3 Bitnami buttons](./img/week-1/11-buttons.png)
 
-![Bitnami stopped](./img/week-1/12-bitnami-stopped.png)
+
+
+## 12. Always Shutdown at the End of Class
 
 1. Always stop the servers and quit Bitnami at the end of class.
 2. Otherwise, the next person coming in will not be able to use Bitnami with changing the configuration or restarting the computer!
+
+![Bitnami stopped](./img/week-1/12-bitnami-stopped.png)
+
