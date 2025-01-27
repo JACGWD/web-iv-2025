@@ -1,5 +1,5 @@
 week-2/img/bak/*
 .DS_Store
 week-2/wordpress.txt
-.vscode
-.vscode/*
+.vscode/
+.vscode/settings.json
