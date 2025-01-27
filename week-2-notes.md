@@ -14,7 +14,7 @@ This semester, all projects and assignments are **due by Friday morning at 8am**
 
 ![GitHub Desktop: fetch origin](./week-2/img/21-fetch-origin.png)
 
-At the start of any work session, at school or at home, open GitHub Desktop, select the Web IV repo and 
+At the start of any work session, at school or at home, open GitHub Desktop, select the Web IV repo and click "Fetch Origin" to **pull** the latest information from the server to your workstation.
 
 </blockquote>
 
