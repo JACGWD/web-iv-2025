@@ -18,14 +18,14 @@
 4.  Move all the files (not the **folder** itself) from the Wordpress folder to Bitnami/apache2/htdocs/
 5.  Open [http://localhost:8080/phpmyadmin](http://localhost:8080/phpmyadmin) (change port number if
     necessary, for example: http://localhost:<span style="color:red">8081</span>).
-6.  Login as "bitnami" with password "bitnami". (If this does not work, try username "root".)
+6.  Login as "root" with password "bitnami". (If this does not work, try username "bitnami".)
 7.  Create an empty database. Name it: jwdb
 8.  Go to [http://localhost:8080/wp-admin/setup-config.php](http://localhost:8080/wp-admin/setup-config.php)
     (change port number if necessary).
 9.  Follow the on-screen step-by-step. You will need this info:
 
     -   Database name: jwdb
-    -   Database username: bitnami
+    -   Database username: root
     -   Database password: bitnami
     -   Database host: localhost:8080
     -   Database prefix: Your initials followed by an underscore (ex: eg_)

@@ -35,7 +35,7 @@ We only need the basics in this class.
 
 If you are installing Bitnami or MAMP on your own macOS machine, <strong>do not install the software in a folder that is saved to iCloud</strong>. For example: Desktop or Documents. 
 
-You can create a new "Local Documents" folder within your home folder and install the software there.
+You can create a new "Local Documents" folder within your home Documents folder and install the software there.
 
 ![Install screen](./img/week-1/03-desktop-folder.png)
 
@@ -56,9 +56,9 @@ You can create a new "Local Documents" folder within your home folder and instal
 Do not forget these credentials! 
 
 1. Create a plain text file, named it "bitnami.txt"
-2. Write the root user name and password inside it
+2. Write the user name "root" and your chosen password inside it
 3. Save it in the same folder as the Bitnami folder
-4. Suggestion: user: bitnami and password: bitnami
+4. Suggestion: user: root and password: bitnami
 
 </blockquote>
 
