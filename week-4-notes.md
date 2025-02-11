@@ -1,4 +1,4 @@
-# Web IV Notes
+# Week 4 Class Notes
 
 ## WordPress PHP Templates
 
