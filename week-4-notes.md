@@ -19,7 +19,15 @@ A template is a PHP file that:
 
 ### Step 1: Adding a TwentyTwenty child theme to your Wordpress portfolio
 
+<blockquote>
+
+### Important!
+
 Because we **cannot customize a theme directly** (because any changes will get overridden by a future theme update), we must create a child theme to keep our modifications safe (because they are in a separate folder).
+
+</blockquote>
+
+
 
 1. On your GWD portfolio site, make sure you have the **TwentyTwenty theme** activated.
    1. Login to your portfolio site's backend admin area.
@@ -33,6 +41,8 @@ Because we **cannot customize a theme directly** (because any changes will get o
 
 ### Step 2: Copy the child theme to your machine
 
+![child theme in a VS Code window](./week-4/img/02-child-theme.png)
+
 1. Login to your portfolio site using FileZilla.
 1. Navigate to /home/yourname/public_html/wp-content/themes/
 2. Select the child theme folder 
@@ -40,6 +50,8 @@ Because we **cannot customize a theme directly** (because any changes will get o
 
 
 ### Step 3: Add the functionality templates
+
+![child theme with templates added](./week-4/img/03-functionality-templates.png)
 
 In order to add new functionality to the portfolio web site, we need to:
 
@@ -57,6 +69,8 @@ The GWD portfolio site needs two new templates:
 
 ### Step 4: Create a theme thumbnail 
 
+![custom theme thumbnail](./week-4/img/screenshot.png)
+
 1. In Photoshop, create a blank 1200x900 pixel canvas.
 2. Add any artwork you like.
 3. Make sure you name is legible on it.
@@ -72,6 +86,8 @@ We will add icons to the pagination.php file:
 
 #### Option 1: Add a SVG
 
+![svg code added to template](./week-4/img/04-adding-svg.png)
+
 1. Design an icon in Adobe Illustrator or Inkscape.
 2. Save it as an SVG file.
 3. Drag and drop the svg file onto ImageOptim.
@@ -84,6 +100,8 @@ We will add icons to the pagination.php file:
 
 
 #### Option 2: Add a PNG or JPG
+
+![base64 encoded png](./week-4/img/05-base64-png.png)
 
 1. Create a canvas in Adobe Photoshop or GIMP that is **twice the size you need**. For example, if you need a 100px square icon, make a 200px x 200px Photoshop document.
 2. Save it as an PNG or JPG file.
@@ -118,7 +136,9 @@ To enable the child theme, you have two options:
 6. The new child theme should be there.
 7. Activate the theme.
 
-### Step 7: Assign the template to the CA pages
+### Step 7: Assign the new template to the CA pages
+
+![Bulk Edit](./week-4/img/01-bulk-edit.png)
 
 1. Login to your portfolio site's backend admin area.
 2. Go to Pages > All Pages.
@@ -132,6 +152,8 @@ To enable the child theme, you have two options:
 10. Click "Update".
 
 ### Step 8: Verify the results
+
+![pagination added to the page](./week-4/img/06-advertising-material.png)
 
 1. Go to your GWD portfolio site.
 2. Visit a comprehensive assessment page.
@@ -148,5 +170,4 @@ Do you prefer to have:
 
 To switch in between the two options, change the **$loop=false** value to true in functions.php:
 
-        function eg_CAnav($loop=false){ // Set the looping from last item next to first and from first item back to last. Default is false (no wrapping around the end).
-      // Define the function
+![loop=false](./week-4/img/07-loop-false.png)
