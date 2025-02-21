@@ -45,7 +45,8 @@ This week we will examine our portfolio navigation for responsiveness.
 
         .page-template-highres .pagination {
             padding:0;
-            list-style-type:none;  
+
+            list-style-type: none;  
             /* remove bullet points */
 
             width: 1024px;   
@@ -61,15 +62,16 @@ This week we will examine our portfolio navigation for responsiveness.
             /* display list items horizontally */
 
             justify-content: space-between;  
-            /* flex space between list items */
+            /* flex space goes between list items */
         }
 
         .pagination svg {
-            fill:#888;
-            height:2rem;  
+            fill: #888;
+
+            height: 2rem;  
             /* define height of icon */
 
-            width:auto;   
+            width: auto;   
             /* automatically resize other dimension so icons is not distorted */
 
             display: block;  
@@ -102,7 +104,7 @@ This week we will examine our portfolio navigation for responsiveness.
 
 ## Responsive Changes
 
-
+Most of the responsiveness can be achieved by simply making the boxes (div, list, etc) be **at most** 1024px wide instead of **exactly** 1024px wide. We add "max-" in front of "width".
 
         .page-template-highres .flex-container {
         /* width: 1024px; */
