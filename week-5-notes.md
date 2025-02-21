@@ -28,44 +28,75 @@ This week we will examine our portfolio navigation for responsiveness.
 ## Examining a Layout for Responsiveness
 
     .page-template-highres .flex-container {
-            width: 1024px;  /* fixed widths are not responsive */
-            margin: 2rem auto;
+            width: 1024px;  
+            /* fixed widths are not responsive */
+
+            margin: 2rem auto; 
+            /* a div is a block-level element. Auto left/right margins will center it */
         }
 
         .page-template-highres h1 {
-            width: 1024px;  /* fixed widths are not responsive */
-            margin: 2rem auto;
+            width: 1024px;  
+            /* fixed widths are not responsive */
+
+            margin: 2rem auto; 
+            /* an h1 is a block-level element. Auto left/right margins will center it */
         }
 
         .page-template-highres .pagination {
             padding:0;
-            list-style-type:none;
-            width: 1024px;   /* fixed widths are not responsive */
-            margin: 2rem auto;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
+            list-style-type:none;  
+            /* remove bullet points */
+
+            width: 1024px;   
+            /* fixed widths are not responsive */
+
+            margin: 2rem auto; 
+            /* a list is a block-level element. Auto left/right margins will center it */
+
+            display: flex; 
+            /* use flexbox to layout list items inside this list tag */
+
+            flex-direction: row; 
+            /* display list items horizontally */
+
+            justify-content: space-between;  
+            /* flex space between list items */
         }
 
         .pagination svg {
             fill:#888;
-            height:2rem;
-            width:auto;
-            display: block;
-            margin: 1rem auto;
+            height:2rem;  
+            /* define height of icon */
+
+            width:auto;   
+            /* automatically resize other dimension so icons is not distorted */
+
+            display: block;  
+            /* force display as block level element */
+
+            margin: 1rem auto;  
+            /* svg is forced to act as a block-level element. Auto left/right margins will center it */
         }
 
 
         .pagination li {
             margin: 0; 
             padding: 0; 
-            width: 30%; 
-            text-align: center;
+
+            width: 30%;  
+            /* three buttons: divide available space in 3 */
+
+            text-align: center;  
+            /* center text in list item box */
             }
 
         .page-template-highres main figure img {
-            display: block;
-            margin: 1rem auto;
+            display: block;   
+            /* force portfolio picture to display as block level element */
+
+            margin: 1rem auto; 
+            /* img is forced to act as a block-level element. Auto left/right margins will center it */
         }
 
 
@@ -94,14 +125,17 @@ This week we will examine our portfolio navigation for responsiveness.
 
 
         .page-template-highres .flex-container {
-            max-width: 90vw;
+            max-width: 90vw;  
+            /* 90% of the viewport width: this is responsive to whatever screen width is in use */
         }
 
         .page-template-highres .pagination {
             border: 1px solid red;
+            /* always make the elements visible while you are designing so you can understand what is happening */
         }
 
         #site-content {
             /* overflow: hidden; */
             overflow: visible;
+            /* force the div to display the pagination that is too wide. Useful for debugging, leave as "hidden" once done */
         }
