@@ -26,11 +26,13 @@ Most of the responsiveness can be achieved by simply making the boxes (div, list
 
 We will also make sure the widths are proportional to the size of the text. We will change the pixel values to REMs.
 
-    max-width: 64rem;
-
-
+    max-width: 102.4rem;
 
 <blockquote>
+
+The normal default font size is 16px, which is what 1rem should be equal to. **The TwentyTwenty theme uses 10px not 16px as a default.** So instead of the normal 64rem, we must use 102.4rem for 1024px.
+
+</blockquote>
 
 ### Important
 
@@ -48,9 +50,9 @@ We will also make sure the widths are proportional to the size of the text. We w
             width: 90vw;
            /* 90% of the width of the viewport */
 
-            max-width: 64rem;
-            /* 1024px / 16px default font size = 64rem */
-            /* max-width = box will stretch in width up to 64rem then center */
+            max-width: 102.4rem;
+            /* 1024px / 10px default font size = 102.4rem */
+            /* max-width = box will stretch in width up to 102.4rem then center */
 
             margin: 2rem auto;
             /* clockwise: right and left are set to auto for centering */
@@ -64,9 +66,9 @@ We will also make sure the widths are proportional to the size of the text. We w
             width: 90vw;
            /* 90% of the width of the viewport */
 
-            max-width: 64rem;
-            /* 1024px / 16px default font size = 64rem */
-            /* max-width = box will stretch in width up to 64rem then center */
+            max-width: 102.4rem;
+            /* 1024px / 10px default font size = 102.4rem */
+            /* max-width = box will stretch in width up to 102.4rem then center */
 
             margin: 0rem auto 2rem auto;
             /* clockwise: right and left are set to auto for centering */
@@ -76,7 +78,7 @@ We will also make sure the widths are proportional to the size of the text. We w
 
         /* PAGINATION DEFAULTS + MOBILE STYLING */
             .page-template-highres .pagination {
-                max-width: 64rem;
+                max-width: 102.4rem;
                 margin: 2rem auto;
                 padding: 0;
 
@@ -156,7 +158,7 @@ We will also make sure the widths are proportional to the size of the text. We w
         }
 
 
-        @media screen and (min-width: 64rem) {
+        @media screen and (min-width: 102.4rem) {
 
             .page-template-highres .pagination {
                 flex-direction: row;
