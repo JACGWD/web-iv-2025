@@ -102,10 +102,21 @@
             /* make visible while designing so you can see what is happening */
 
             position: relative;
-            /* for absolute positioning, if needed */
+            /* sets the parent of the icons as the starting point for aligning with absolute positioning, if needed */
         }
 
+        .page-template-highres .pagination li img, 
+        .page-template-highres .pagination li svg {
+        
+        position: absolute;
+        /* no longer in the text flow */
 
+        bottom: 0.125rem;
+        /* place somewhere close to the bottom of the box */
+
+        left: calc(50% - 2rem);
+        /* absolutely positioned elements cannot be centered with auto margins, as they are independent of other things on the page. But we can center them by saying "align to the middle, but back up by half the width of the icon (so the middle of the icon is at 50% of the box)" */
+        }
 
 
 
@@ -199,7 +210,7 @@
 
             /* 3 BUTTONS = APPROX 1/3 OF AVAILABLE HORIZONTAL SPACE, REMAINDER = NEGATIVE SPACE BETWEEN ITEMS */
                 .pagination li {
-                    width: 30%;
+                    width: 33%;
             }
 
             /* RESET LIST ITEM MARGINS TO ZERO TO ALIGN VERTICALLY NOW THAT LAYOUT IS HORIZONTAL  */
