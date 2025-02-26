@@ -2,7 +2,105 @@
 
 ## Optional Techniques to help add style to the pagination
 
-### 1. Background Images
+### 1. Adding a Custom Font
+
+#### 1a. Adding a Google font via the \<head> tag (recommended practice)
+
+To add code to the \<head> tag, we will need to copy a file from the parent theme into the child theme.
+
+![Google Font link code](./week-6b/google-font-link.png)
+
+1. Choose the font you wish to use on Google Fonts.
+   1. Click the blue "Get Font" button at top right.
+   2. Click the "Get Embed Code" button at top right.
+2. If the chosen font is a **variable** font, use the sliders in the left box to customize which font weight you want.
+3. In VS Code, copy the "header.php" file from the twentytwenty (parent) theme folder and paste it into the twentytwenty-child (child) theme folder.
+4. Open the "twentytwenty-child/header.php" file in VS Code.
+5. On the Google Fonts page:
+   1. Click "Web"
+   2. Select \<link>
+   3. Copy the code
+
+6. In VS Code, paste the three lines of code **inside the \<head> tag** (ideally just before \</head>)
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        </head>
+
+7. Save the file.
+8. Add the relevant CSS code to your style.css file:
+
+        .page-template-highres .pagination li a {
+            font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: 700;
+        }
+9. Save the file.
+10. Go to the "Upload" section below.
+
+
+#### 1b. Adding via CSS @import (slower performance)
+
+How to add @import code to the CSS file of your child theme.
+
+![Google Font @import code](./week-6b/google-font-at-import.png)
+
+1. Choose the font you wish to use on Google Fonts.
+   1. Click the blue "Get Font" button at top right.
+   2. Click the "Get Embed Code" button at top right.
+2. If the chosen font is a **variable** font, use the sliders in the left box to customize which font weight you want.
+3. In VS Code, your CSS stylesheet.
+5. On the Google Fonts page:
+   1. Click "Web"
+   2. Select @import
+   3. Copy the code
+
+6. In VS Code, paste the line lines of code **at the top of the CSS stylesheet** (do not paste HTML tags into a CSS file)
+
+            @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+7. Save the file.
+8. Add the relevant CSS code to your style.css file:
+
+        .page-template-highres .pagination li a {
+            font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: 700;
+        }
+
+9. Save the file.
+10. Add the modified code to your live web site:
+    1.  Copy the modified CSS code and paste it directly in the CSS editor on WordPress (Appearance > Theme File Editor) and then save the file.
+    2.  Or, go to the "Upload" section below.
+
+
+#### 2. Uploading the Custom Font
+
+##### 2.1 Upload the modified theme to your child theme on the live server (Zip)
+
+This technique is safest, as you are creating a zip backup of your theme in case something goes wrong at a later time.
+ 
+   1. Zip the child theme folder
+   2. Move it outside of WP Studio (back it up)
+   3. Go to the Appearance > Themes section on your web portfolio WordPress site.
+   4. Click "New Theme"
+   5. Click "Upload Theme"
+   6. Select your child theme zip file
+   7. Upload
+   8. Confirm that you want to replace the child theme that already exists.
+   9. Activate the child theme
+   10. Delete the cache on your browser to make sure you see the updated files.
+
+##### 2.2 Upload the modified theme to your child theme on the live server (FileZilla)
+
+   1. Open FileZilla
+   2. Click Server > Reconnect (command-R)
+   3. In FileZilla's left-hand window, navigate to where your child theme exists (in WP Studio: /Users/yourname/Library/CloudStorage/OneDrive/Web-IV/WPStudioSite/wp-content/themes/twentytwenty-child/)
+   4. In FileZilla's right-hand window, navigate to where your child theme exists (on CPanel: /home/yourname/public_html/wp-content/themes/twentytwenty-child/)
+   5. Upload the modified files (style.css and possibly header.php)
+   6. Confirm that you want to replace the files that already exist.
+   7. Delete the cache on your browser to make sure you see the updated files.
+
+### 2. Background Images
 
 For this technique, add an "img" folder inside the wp-content/themes/twentytwenty-child/ folder.
 
@@ -158,7 +256,7 @@ You can change the appearance of the SVGs **on hover**:
 
 You can also add or modify a background image **on hover**:
 
-(See what we did last semester with the colored navigation images in the pet shop!)
+(See what we did last semester with the colored navigation images [in the pet shop](https://billypoppins.dev.graphicandwebdesign.ca/pet-shop-php-version/index.php)!)
 
         .pagination li {
             background-color: #fc5000;
