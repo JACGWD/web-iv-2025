@@ -271,10 +271,10 @@ You can also add or modify a background image **on hover**:
         }
 
 
-<figcaption>
+<blockquote>
 
 ### NOTE
 
 If you are having problems with your CSS rules not being specific enough to "kick in", **add ".page-template-highres" at the beginning** of your CSS selector.
 
-</figcaption>
+</blockquote>
