@@ -49,7 +49,7 @@ How to add @import code to the CSS file of your child theme.
    1. Click the blue "Get Font" button at top right.
    2. Click the "Get Embed Code" button at top right.
 2. If the chosen font is a **variable** font, use the sliders in the left box to customize which font weight you want.
-3. In VS Code, your CSS stylesheet.
+3. In VS Code, open your CSS stylesheet.
 5. On the Google Fonts page:
    1. Click "Web"
    2. Select @import
