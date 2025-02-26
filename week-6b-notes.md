@@ -248,7 +248,7 @@ You can add some "life" to your design, by making the icons react to your mouse 
 
 You can change the appearance of the SVGs **on hover**:
 
-        .pagination li a:hover svg.middle-icon {
+        .pagination li a:hover svg {
             stroke: black;
             fill: yellow;
         }
@@ -270,3 +270,11 @@ You can also add or modify a background image **on hover**:
             background-blend-mode: multiply; /* option 3: change blending mode on hover */
         }
 
+
+<figcaption>
+
+### NOTE
+
+If you are having problems with your CSS rules not being specific enough to "kick in", **add ".page-template-highres" at the beginning** of your CSS selector.
+
+</figcaption>
