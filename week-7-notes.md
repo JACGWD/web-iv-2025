@@ -1,11 +1,5 @@
 # Week 7 Notes
 
-## Homework
-
-Convert your assigned Montreal Real Estate pages to blocks, not Divi shortcodes.
-
-**Make sure to use proper HTML.**
-
 ## Master and Detail Page Relationship
 
 In computer science, as well as in web design, a well established design pattern is "master and detail". You can think of it as "category and product". Visually, it often means "thumbnails overview page" and "highres details page". This is why our CA templates are called "thumbs" and "high res". 
@@ -52,6 +46,13 @@ Paste this code into the functions.php file of your child theme (on your live po
 The new code in thumbs.php displays the **featured image**, not the image uploaded inside the page content. You will need to assign a featured image for each page of the CA.
 
 ![Set Featured Image in WordPress](./week-7/set-featured-image.png)
+
+1. Go to any of the pages you have already added a CA image to.
+2. Click "Page" in the right sidebar.
+3. Click "Set featured image".
+4. Click "Media Library".
+5. Click the same image as the one you inserted on the page before.
+6. Save the page.
 
 
 ### Customize Thumbnail Resolution
