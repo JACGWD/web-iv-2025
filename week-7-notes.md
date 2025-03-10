@@ -74,6 +74,8 @@ Once you have customized the grid (ex: number of columns) for the presentation o
 
 ## CSS formatting for the Thumbnails
 
+**This code already exits in your CSS.** We are only adding two new selectors and two extra rules. Pay attention to the comments.
+
         .page-template-highres .flex-container,  /* add comma here */
         .page-template-thumbs .flex-container /* add this selector */ {
 
@@ -89,10 +91,16 @@ Once you have customized the grid (ex: number of columns) for the presentation o
         }
 
         .page-template-thumbs  figure.thumbnail {  /* add this entire rule */
+            width: 90vw;
             max-width: 250px;
             border: 1px solid #444;
-            margin: 1rem auto; /* centers thumbnail */
+            margin: 1rem auto; /* centers figure box in the viewport on mobile */
             padding: 1rem;
+        }
+
+        .page-template-thumbs  figure.thumbnail img {  /* add this entire rule */
+            display: block;
+            margin: 0 auto; /* centers image within the figure */
         }
 
 
@@ -106,7 +114,7 @@ Once you have customized the grid (ex: number of columns) for the presentation o
         /* mobile phone: no columns: nothing to do */
 
         /* for two columns */
-        @media screen and (min-width: 525px) {
+        @media screen and (min-width: 32.8125rem) {
             .page-template-thumbs #site-content {
                 display: grid; /* define grid once only: first time you want to use it */
                 grid-template-columns: 1fr 1fr;
@@ -116,8 +124,16 @@ Once you have customized the grid (ex: number of columns) for the presentation o
 
 
         /* for three columns */
-        @media screen and (min-width: 755px) {
+        @media screen and (min-width: 47.1875rem) {
             .page-template-thumbs #site-content {
                 grid-template-columns: 1fr 1fr 1fr;
+        }
+        } /* closes media query */
+
+
+        /* for four columns */
+         @media screen and (min-width: 102.4rem) {
+            .page-template-thumbs #site-content {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
         }
         } /* closes media query */
