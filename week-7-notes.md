@@ -98,3 +98,25 @@ Once you have customized the grid (ex: number of columns) for the presentation o
         /* MAKE H1 BEHAVE SAME AS ABOVE CONTAINER */
         .page-template-highres h1, /* add comma here */
         .page-template-thumbs h1 /* add this selector */ {
+
+
+   ## CSS for Responsive CSS Grid         
+
+        /* mobile phone: no columns */
+
+        /* for two columns */
+
+        @media screen and (min-width: 525px) {
+            .page-template-thumbs #site-content {
+                display: grid; /* define grid once only: first time you want to use it */
+                grid-template-columns: 1fr 1fr;
+        }
+        } /* closes media query */
+
+        /* for three columns */
+
+        @media screen and (min-width: 755px) {
+            .page-template-thumbs #site-content {
+                grid-template-columns: 1fr 1fr 1fr;
+        }
+        } /* closes media query */
