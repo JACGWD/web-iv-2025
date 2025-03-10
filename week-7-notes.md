@@ -71,3 +71,30 @@ Once you have customized the grid (ex: number of columns) for the presentation o
         // =================  END CUSTOM THUMBNAIL SIZE ============================== //
 
 
+## CSS formatting for the Thumbnails
+
+        .page-template-highres .flex-container,  /* add comma here */
+        .page-template-thumbs .flex-container /* add this selector */ {
+
+        width: 90vw;
+        /* 90% of the width of the viewport */
+
+        max-width: 102.4rem;
+        /* 1024px / 10px default font size = 102.4rem */
+        /* max-width = box will stretch in width up to 102.4rem then center */
+
+        margin: 0rem auto 2rem auto;
+        /* clockwise: right and left are set to auto for centering */
+        }
+
+        .page-template-thumbs  figure.thumbnail {  /* add this entire rule */
+            max-width: 250px;
+            border: 1px solid #444;
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+
+        /* MAKE H1 BEHAVE SAME AS ABOVE CONTAINER */
+        .page-template-highres h1, /* add comma here */
+        .page-template-thumbs h1 /* add this selector */ {
