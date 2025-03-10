@@ -90,7 +90,7 @@ Once you have customized the grid (ex: number of columns) for the presentation o
         .page-template-thumbs  figure.thumbnail {  /* add this entire rule */
             max-width: 250px;
             border: 1px solid #444;
-            margin: 1rem;
+            margin: 1rem auto; /* centers thumbnail */
             padding: 1rem;
         }
 
@@ -102,10 +102,9 @@ Once you have customized the grid (ex: number of columns) for the presentation o
 
    ## CSS for Responsive CSS Grid         
 
-        /* mobile phone: no columns */
+        /* mobile phone: no columns: nothing to do */
 
         /* for two columns */
-
         @media screen and (min-width: 525px) {
             .page-template-thumbs #site-content {
                 display: grid; /* define grid once only: first time you want to use it */
@@ -113,8 +112,9 @@ Once you have customized the grid (ex: number of columns) for the presentation o
         }
         } /* closes media query */
 
-        /* for three columns */
 
+
+        /* for three columns */
         @media screen and (min-width: 755px) {
             .page-template-thumbs #site-content {
                 grid-template-columns: 1fr 1fr 1fr;
