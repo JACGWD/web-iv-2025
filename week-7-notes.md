@@ -15,8 +15,8 @@ Two examples of master/detail relationship design:
 There are a few steps for automatically populating the CA thumbnails page:
 
 - Download the new [thumbs.php (updated with a custom query)](./week-7/thumbs.php)
-- Make sure post number on line 23 is accurate (on your live portfolio site)
-- Upload the new thumbs.php
+- Make sure post number on line 23 is accurate (on your live portfolio site, not your dev environment). See the following step to find the proper ID number.
+- Upload the new thumbs.php to your child theme folder (or update the thumbs.php file in the WordPress theme editor, if the file already exists in your theme folder)
 
 
 ### How to display the page ID in the WordPress backend
