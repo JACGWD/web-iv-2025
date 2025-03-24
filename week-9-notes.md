@@ -2,12 +2,21 @@
 
 ## Evaluation of Montreal Real Estate Pages 
 
-1. Is all the content inside a shortcode tag: 0
-2. Are there any H1 tags on the page: 7
-3. Are there any "fake lists" (paragraphs that start with a manually entered digit or dash/bullet) on the page: 7
-4. Are there any "fake headers" (paragraphs that are manually made bigger and bold) on the page: 7
-5. Are there any stray/random characters on the page (ex: > at the very end): 7
-6. "By Jennifer Walker" paragraph -> assign "byline" as a class: yes: +1 | no: -1
+Go to the Excel spreadsheet for the assignment. There is a new tab called "Corrections".
+
+By default, the grade is 9/10 for a page being reformatted using proper HTML blocks. Change the garde, or add/deduct points according to these criteria:
+
+1. All the text content is inside a shortcode block: 0/10
+2. All the text content is nothing but paragraph tags: 0/10
+3. H1 tag(s) on the page: 5/10
+4. Are there any "fake lists" (paragraphs that start with a manually entered digit or dash/bullet) on the page: 5/10
+5. Are there any "fake headers" (paragraphs that are manually made bigger and bold) on the page: 5/10
+6. Are there any stray/random characters on the page (ex: > at the very end): 7/10
+7. The page is empty: 
+   1. No "Empty" comment in Excel: 0/10
+   2. "Empty" comment in Excel: 7/10
+8. "By Jennifer Walker" paragraph -> assign "byline" as a class: yes: +1 | no: -1
+9. If there is any actual HTML code (ex: a div), is it in a "Custom HTML" block: yes: +1 | no: -1
 
 ## Homework
 
