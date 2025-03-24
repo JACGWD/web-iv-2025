@@ -22,6 +22,8 @@ By default, the grade is 9/10 for a page being reformatted using proper HTML blo
 
 ### Build a Wordpress Theme from Scratch
 
+![WP screenshot](./week-9/img/screenshot.png)
+
 <figcaption>
 
 #### *Please read all these instructions before starting.* 
