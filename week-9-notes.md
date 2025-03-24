@@ -24,21 +24,21 @@ By default, the grade is 9/10 for a page being reformatted using proper HTML blo
 
 <figcaption>
 
-### *Please read all these instructions before starting.* 
+#### *Please read all these instructions before starting.* 
 
 </figcaption>
 
-#### Step 1: Create a GitHub Repository for your Theme
+##### Step 1: Create a GitHub Repository for your Theme
 
 [https://github.com/JACGWD/Create-GitHub-Repository](https://github.com/JACGWD/Create-GitHub-Repository)
 
-#### Step 2: Send me the URL to your Work-in-Progress
+##### Step 2: Send me the URL to your Work-in-Progress
 
 ![Copy Repo .git URL](./week-9/img/19-copy-git-url.png)
 
-   - Send me the URL to your repository via MIO (make sure the URL ends in .git)  
+Send me the URL to your repository via MIO (make sure the URL ends in .git)  
 
-#### Step 3: Building a WP Theme from Scratch
+##### Step 3: Building a WP Theme from Scratch
 
 Follow the step-by-step instructions here: [https://github.com/JACGWD/custom-wp-theme-in-25-copy-pastes](https://github.com/JACGWD/custom-wp-theme-in-25-copy-pastes)
 
