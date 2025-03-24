@@ -25,11 +25,11 @@
 
 ## Send me the URL to your Work-in-Progress
 
-![](./img/19-copy-git-url.png)
+![Copy Repo .git URL](./week-9/img/19-copy-git-url.png)
 
    - Send me the URL to your repository via MIO (make sure the URL ends in .git)  
 
-### Step 2: Build the Theme
+### Step 2: Building a WP Theme from Scratch
 
 Follow the step-by-step instructions here: [https://github.com/JACGWD/custom-wp-theme-in-25-copy-pastes](https://github.com/JACGWD/custom-wp-theme-in-25-copy-pastes)
 
