@@ -4,7 +4,7 @@
 
 Go to the Excel spreadsheet for the assignment. There is a new tab called "Corrections".
 
-By default, the grade is 9/10 for a page being reformatted using proper HTML blocks. Change the garde, or add/deduct points according to these criteria:
+By default, the grade is 9/10 for a page being reformatted using proper HTML blocks. Change the grade, or add/deduct points according to these criteria:
 
 1. All the text content is inside a shortcode block: 0/10
 2. All the text content is nothing but paragraph tags: 0/10
