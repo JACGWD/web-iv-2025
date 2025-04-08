@@ -142,5 +142,5 @@ Once you leave the small mobile device screen sizes behind, you can redefine the
 <tr><td>Default Spacing for Tags</td><td>Fail</td><td>Pass</td><td>Pro</td><td>10%</td></tr>
 <tr><td>Pair Spacing for First Tag</td><td>Fail</td><td>Pass</td><td>Pro</td><td>10%</td></tr>
 <tr><td>Pair Spacing for Next Sibling Tag</td><td>Fail</td><td>Pass</td><td>Pro</td><td>10%</td></tr>
-<tr><td>Overall Typographic Aesthetics</td><td>Fail</td><td>Pass</td><td>Pro</td><td>55%</td></tr>
+<tr><td><strong>Overall Typographic Aesthetics</strong></td><td>Fail</td><td>Pass</td><td>Pro</td><td>55%</td></tr>
 </table>
