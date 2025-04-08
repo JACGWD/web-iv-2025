@@ -2,6 +2,14 @@
 
 ## Continuation of CSS Typographic Spacing
 
+### Firefox Fonts Inspector
+
+Use the Fonts Inspector in Mozilla Firefox to visually adjust your font parameters. Line height is normally expressed as either the keyword "normal" or a number, ex: line-height: 1.5; (meaning "line-height = a number of lines"). 
+
+However, [line-height supports values expressed in px, pt, cm, %, etc](https://www.w3schools.com/cssref/pr_dim_line-height.php).
+
+![Firefox Fonts Inspector](./week-11/firefox-fonts-panel.png)
+
 ### Major Rules to Define per Tag
 
 |CSS Property|Viewport|Comment|
