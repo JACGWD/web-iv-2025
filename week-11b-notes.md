@@ -17,7 +17,7 @@ Please make sure you have the latest version of the CSS Reset Selector plugin in
 
 ## Change folder and Text Domain Names
 
-1. Inside WordPress's wp-content/themes/ folder, change the "montreal real estate" theme folder name to "montreal real estate your name".
+1. Inside WordPress's wp-content/themes/ folder, change the "montreal real estate" theme folder name to **"montreal real estate your name"**.
 2. In style.css, change the "Theme Name" and the "Text Domain" accordingly.
 3. In functions.php, change the text domains 'montreal-real-estate' in the menu builder code:
 
