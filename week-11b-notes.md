@@ -92,6 +92,28 @@ A REM is a "Root EM". It is a value equal to the height of a lowercase letter m 
 </blockquote>
 
 
+## Lists
+
+List require a bit of special attention as the CSS Reset removes space at the left which will hide the bullets or numbers.
+
+        ul {
+            margin: 1rem 0 1rem 2rem;  /* note the 2rem at left */
+            list-style-type: disc;
+        }
+
+         ol {
+            margin: 1rem 0 1rem 2rem;
+            list-style-type: decimal;
+        }
+
+### An Image as The List Item Marker
+
+The list-style-image property specifies an image as the list item marker:
+
+        ul {
+            list-style-image: url('img/icon.png');
+        }
+
 
 ## Pair Spacing
 
