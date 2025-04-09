@@ -114,6 +114,7 @@ The list-style-image property specifies an image as the list item marker:
             list-style-image: url('img/icon.png');
         }
 
+See: [this Mozilla Developer page for other options](https://developer.mozilla.org/en-US/docs/Web/CSS/::marker)
 
 ## Pair Spacing
 
