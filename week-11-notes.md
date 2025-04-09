@@ -133,20 +133,24 @@ There should be more space (ex: 2x) above a title than below it (ex: 1x). A titl
             line-height: 1.5;
         }
 
+        h1,h2,h3,h4,h5,h6 {
+            line-height: 1.3; /* default line-height for all titles and subtitles */
+        }
+
         h1 {
-            margin: 2em 0 2em 0;
-            line-height:1.2;
+            margin: 2em 0 1em 0;
+            line-height: 1.2;  /* override the default line-height */
             }
 
-        h2 {margin: 2em 0 2em 0}
+        h2 {margin: 2em 0 1em 0}
 
-        h3 {margin: 2em 0 2em 0}
+        h3 {margin: 2em 0 1em 0}
 
-        h4 {margin: 2em 0 2em 0}
+        h4 {margin: 2em 0 1em 0}
 
-        h5 {margin: 2em 0 2em 0}
+        h5 {margin: 2em 0 1em 0}
 
-        h6 {margin: 2em 0 2em 0}
+        h6 {margin: 2em 0 1em 0}
 
         p {margin: 0 0 1em 0}
 
