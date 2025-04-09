@@ -1,5 +1,66 @@
 # Week 11b Class Notes
 
+
+## CSS Reset Selector
+
+Please make sure you have the latest version of the CSS Reset Selector plugin installed and activated.
+
+![CSS Reset Selector](./week-11/css-reset-selector.png)
+
+1. [Download the latest version here.](https://github.com/JACGWD/CSS-Reset-Selector/archive/refs/heads/main.zip)
+2. Install the plugin
+3. Activate it
+4. Go Settings > CSS Reset Selector
+5. Select the "Eric Meyer (with Position: Relative for Everything)"
+6. Click "Save reset method".
+
+
+## Change folder and Text Domain Names
+
+1. Inside WordPress's wp-content/themes/ folder, change the "montreal real estate" theme folder name to "montreal real estate your name".
+2. In style.css, change the "Theme Name" and the "Text Domain" accordingly.
+3. In functions.php, change the text domains 'montreal-real-estate' in the menu builder code:
+
+        /*  STEP 2.10 ADD THE MENUS */
+
+            function add_my_menus() {
+                register_nav_menus(
+                array(
+                    'header-menu' => __( 'Header Menu', 'montreal-real-estate' ),
+                    'footer-menu' => __( 'Footer Menu', 'montreal-real-estate' ),
+                    'social-menu' => __( 'Social Menu', 'montreal-real-estate'),
+                    // YOU CAN ADD AS MANY MENUS AS YOU WANT HERE
+                )
+                );
+            }
+            add_action( 'init', 'add_my_menus' );
+
+4. Check index.php and single.php for this line to change as well:
+   
+        _e( 'Sorry, no posts matched your criteria.', 'montreal-real-estate' );
+
+
+5. Use the **Theme Checker** plugin to test that the theme modifications pass most checks (no red errors).
+
+## Create a GitHub Repo for this project
+
+![Publish GitHub Repo](./week-11/github-repo.png)
+
+![Publish GitHub Repo not Private](./week-11/not-private-repo.png)
+
+1. Open GitHub Desktop
+2. Click the top left corner
+3. Select "Add"
+4. Select "Create New Repository..."
+5. Select the "themes" folder within WordPress's "wp-content" folder
+6. Click "Publish Repository"
+7. Uncheck the "Keep this code Private" box
+8. Click "Publish Repository"
+9. Click "View on GitHub", 
+10. Click the green button
+11. Copy the URL (ends with .git)
+12. Send me the URL in a MIO
+
 ## Continuation of CSS Typographic Spacing
 
 ### Firefox Fonts Inspector
@@ -30,16 +91,6 @@ A REM is a "Root EM". It is a value equal to the height of a lowercase letter m 
     
 </blockquote>
 
-
-    figcaption {
-        font-size: .8584em;
-        text-align: right;
-        font-style: italic;
-        margin-top: 0;
-
-        position: relative; /* when margins are zero, you can still tweak */
-        top: -0.3rem;
-    }
 
 
 ## Pair Spacing
@@ -127,6 +178,23 @@ Once you leave the small mobile device screen sizes behind, you can redefine the
 
     } /* always add a comment next to the closing media query bracket 
          so you don't delete it accidentally */
+
+
+
+## Micro-spacing Adjustments
+
+
+
+
+    figcaption {
+        font-size: .8584em;
+        text-align: right;
+        font-style: italic;
+        margin-top: 0;
+
+        position: relative; /* when margins are zero, you can still tweak */
+        top: -0.3rem;
+    }
 
 
 
