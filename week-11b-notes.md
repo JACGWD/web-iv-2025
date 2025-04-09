@@ -183,7 +183,9 @@ Once you leave the small mobile device screen sizes behind, you can redefine the
 
 ## Micro-spacing Adjustments
 
+Once you have completed your spacing using margins and the two sibling selectors, if the margins are set to zero and you still want to reduce a space (*try to avoid using negative margins*), you can still tweak the position of an element by **using relative positioning**.  
 
+This works best for tiny adjustments, as large adjustments can make elements overlap.
 
 
     figcaption {
