@@ -61,6 +61,8 @@ Artwork produced in Photoshop (or other bitmap/pixel-based editors) as it is **c
 - 7+3=10 columns of content area
 - 16-10 = 6 columns negative space (3 at left and 3 at right of main + sidebar box)
 
+See: [https://www.960.gs](https://960.gs/)
+
 ### Repeat for Tablet
 
 ![tablet multi column layout](./week-12/tablet-column-layout.png)
